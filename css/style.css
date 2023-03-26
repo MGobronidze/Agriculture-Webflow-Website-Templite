@@ -39,8 +39,8 @@ nav{
 .main-img{
     height: 934px;
     width: 1400px;
-    margin: 0 auto;
-    margin-top: 86px;
+    margin: 86px auto 0;
+    padding: 96px 0;
 }
 .main-section{
     margin: 0 auto ;
