@@ -5,6 +5,7 @@
     <title>Agriculture Webflow</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font.css">
 </head>
 <body>
     <header>     
@@ -18,8 +19,8 @@
                     <a href="#">About</a>
                 </li>
                 <li class="nav-li">
-                    <a href="#">Pages</a>
-                </li>
+                    <a href="#" class="pages-a">Pages</a> <img src="images/Vector.svg" alt="logo of pages" class="img-pages">
+                </li> 
                 <li class="nav-li">
                     <a href="#">Shop</a>
                 </li>
@@ -43,12 +44,12 @@
             <div>
                 <h2 class="header-sect1">Organic Store Services</h2>
                 <p class="paragraph-sect1">t is a long established fact that a reader will be distracted by the readable content of a page when looking a layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
-                <p class="paragraph-sect1">Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and auncover many web sites still in their infancy. Various versions have evolved over the years</p>
+                <p class="paragraph-sect1 sect1-active">Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and auncover many web sites still in their infancy. Various versions have evolved over the years</p>
             </div>
             <div class="sect2">
                 <div class="sect2-1">
-                    <img src="images/Photo.jpg" alt="photo of organic farming" class="img-sect2 active"><!--
-                --> <div class="div-sect2">
+                    <img src="images/Photo.jpg" alt="photo of organic farming" class="img-sect2 active active-bottom"><!--
+                --> <div class="div-sect2 active-bottom">
                         <h2 class="header-sect2"> Why Organic</h2>
                         <p class="paragraph-sect2">Sed ut perspiciatis unde omnis iste natus error sit voluptat. page editors now use Lorem Ipsum as their default model text, and auncover.</p>
                     </div>
@@ -58,7 +59,7 @@
                         <h2 class="header-sect2">Speciality Produce</h2>
                         <p class="paragraph-sect2">Sed ut perspiciatis unde omnis iste natus error sit voluptat. page editors now use Lorem Ipsum as their default model text, and auncover.</p>
                     </div><!--
-                --><img src="images/Photo (1).jpg" alt="photo of organic farming " class="img-sect2">
+                --><img src="images/Photo1.jpg" alt="photo of organic farming " class="img-sect2">
                 </div>
             </div>
             
@@ -72,36 +73,55 @@
         </section>
     </main>
     <footer>
-        <section>
-            <div>
-                <h2>Contact Us</h2>
+        <section class="footer-container">
+            <div class="contact-us">
+                <h2 class="contact-header">Contact Us</h2>
                 <ul>
-                    <li>Email <a href="mailto:needhelp@Organia.com?subject=The%20subject%20of%20the%20mail">needhelp@Organia.com</a></li>
-                    <li>Phone <a href="tel:666 888 888">666 888 888</a></li>
-                    <li>address <a target="_blank" href="https://www.google.com/maps/search/88+road,+borklyn+street,+USA/@36.4328616,-133.8992942,4.46z">88 road, borklyn street, USA</a></li>
+                    <li class="contact-info">  
+                        <div class="contact-type">Email</div> 
+                        <a href="mailto:needhelp@Organia.com?subject=The%20subject%20of%20the%20mail">needhelp@Organia.com</a>
+                    </li> <br><!--აქ ვერ ვნახე ფიგმაში ზუსტად დაშორება რამდენი იყო მეზობელ ელემენტამდე-->
+                    <li class="contact-info">
+                        <div class="contact-type">Phone</div>
+                        <a href="tel:666 888 888">666 888 888</a>
+                    </li> <br><!--აქაც ანალოგიურად, ვერ ვნახე ფიგმაში ზუსტად დაშორება რამდენი იყო მეზობელ ელემენტამდე-->
+                    <li class="contact-info">
+                        <div class="contact-type">address</div>
+                        <a target="_blank" href="https://www.google.com/maps/search/88+road,+borklyn+street,+USA/@36.4328616,-133.8992942,4.46z">88 road, borklyn street, USA</a>
+                    </li><br><!--აქაც ანალოგიურად, ვერ ვნახე ფიგმაში ზუსტად დაშორება რამდენი იყო მეზობელ ელემენტამდე-->
                 </ul>
-            </div>
-            <div>
-                <img src="images/Logo.svg" alt="">
-                <div>   
+            </div><!--
+            --><div class="organic-farm">
+                <img src="images/Logo.svg" alt="logo of organic farming" class="organic-logo">
+                <div class="contact-info">   
                     <p>Simply dummy text of the printing and typesetting industry.</p>
                     <p>Lorem Ipsum simply dummy text of the printing </p>
                 </div>
-            </div>
-            <div>
-                <h2>Utility Pages</h2>
-                <div>
-                    <p>Style Guide</p>
-                    <p>404 Not Found</p>    
-                    <p>Password Protected</p> 
-                    <p>Licences</p>   
-                    <p>Changelog</p>
-                </div>
+            </div><!--
+            --><div class="utility-pages">
+                <h2 class="contact-header">Utility Pages</h2>
+                <ul>
+                    <li class="contact-info">
+                        Style Guide
+                    </li>
+                    <li class="contact-info">
+                        404 Not Found
+                    </li>
+                    <li class="contact-info">
+                        Password Protected
+                    </li>
+                    <li class="contact-info">
+                        Licences
+                    </li>
+                    <li class="contact-info">
+                        Changelog
+                    </li>
+                </ul>
             </div>
         </section>
-        <section>
-            <hr>
-            <p>Copyright &copy; Organick | Designed by VictorFlow Templates - Powered by Webflow</p>
+        <hr>
+        <section class="copyright">
+            <p>Copyright &copy; <span class="word-bold">Organick</span> | Designed by <span class="word-bold">VictorFlow</span> Templates - Powered by <span class="word-bold">Webflow</span></p>
         </section>
     </footer>
 </body>

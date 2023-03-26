@@ -1,7 +1,13 @@
+h2{
+    color: #274C5B;
+}
+
+p,li,a{
+    font-family: 'Roboto Condensed normal';
+    color: #525C60;
+}
 nav{
-    /* margin-top: 69px;
-    margin-left: 162px;
-    margin-bottom: 69px; */
+
     margin: 69px auto;
     width: 1596px;
 }
@@ -12,27 +18,29 @@ nav{
 
 .nav-ul{
     display: inline-block;
-    vertical-align: middle;
-    
-    
+    vertical-align: middle; 
 }
 .nav-li{
     display: inline-block;
     vertical-align: middle;
     margin-left: 50px;
     font-size: 20px;
+    color:#274C5B;
+    font-weight: 700;
+}
+.pages-a,.img-pages{
+    vertical-align: middle;
 }
 .img-banner{
     height: 450px;
     width: 1920px;
-    padding-bottom: 86px;
-   margin: 0 auto;
+    margin: 0 auto;
 }
 .main-img{
     height: 934px;
     width: 1400px;
     margin: 0 auto;
-    padding-top: 96px;
+    margin-top: 86px;
 }
 .main-section{
     margin: 0 auto ;
@@ -42,16 +50,21 @@ nav{
     width: 517px;
     font-size: 50px;
     line-height: 59px;
+    font-family: 'Roboto bold';
+    margin-bottom: 28px;
 }
 .paragraph-sect1{
     font-size: 18px;
     line-height: 30px;
 }
+.sect1-active{
+    margin-bottom: 70px;
+}
 .img-sect2{
     vertical-align: middle;
     width: 379px;
     height: 252px;
-    border-radius: 5px;    
+    border-radius: 20px;    
 }
 .div-sect2{
     display: inline-block;
@@ -63,15 +76,18 @@ nav{
 .active{
     margin-right: 10px;
 }
+.active-bottom{
+    margin-bottom: 14px;
+}
 .sect2{
-    /* margin-top: 70px; */
-    margin-bottom: 28px;
+    margin-bottom: 70px;
 }
 .header-sect2{
     margin-left: 45px;
     margin-top: 63px;
     font-size: 25px;
     line-height: 30px;
+    font-family: 'Roboto 500';
 }
 .paragraph-sect2{
     margin-left: 45px;
@@ -82,6 +98,7 @@ nav{
 .header-sect3{
     font-size: 35px;
     line-height: 41px;
+    font-family: 'Roboto bold';
 }
 .sect3{
     margin-top: 42px;
@@ -92,9 +109,61 @@ nav{
     width: 936px;
 }
 
-
 .background-img{
     margin: 0 auto;
     width: 1400px;
+    height: 323px;
     margin-top: 97px;
+}
+.footer-container{
+    width: 1404px;
+    margin: 75px auto 0;
+    height: 308px;
+}
+
+.contact-us{
+    width: 291px;
+    display: inline-block;
+    vertical-align: top;   
+}
+.contact-header{
+    color: #274C5B;
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom: 24px;
+    font-family: 'Roboto 500';
+    font-weight: 700;
+}
+.organic-farm{
+    width: 543px;
+    display: inline-block;
+    margin: 0 143px 0 142px; 
+    vertical-align: top;
+    text-align: center;
+}
+.utility-pages{
+    width: 285px;
+    display: inline-block;
+    vertical-align: top;
+}
+.copyright{
+    width: 699px;
+    margin: 0 auto;
+}
+.contact-info{
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.contact-type{
+    font-family: 'Roboto 500';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+}
+.organic-logo{
+    margin-bottom: 26px;
+}
+.word-bold{
+    font-weight: 700;
 }
